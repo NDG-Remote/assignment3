@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(236, 236, 236);
+    font-family: montserrat;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#navbar-header {
+    background-color: rgb(164, 241, 241);
+    margin-bottom: 15px;
+}
+
+#logo-img {
+    background-image: url("../images/logo.png");
+    width: 150px;
+    height: 45px;
+}
+
+h1 {
+    padding: 4px;
+    text-align: center;
+}
+
+#nav-restaurant a:hover {
+    color: yellow;
+}
+
+.navbar-brand {
+    font-family: montserrat;
+    font-weight: 900;
+    font-size: 1.3em;
+    text-shadow: 1px 1px 1px blue;
+}
+
+#nav-restaurant a:hover {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+  }
+
+
+.navbar-nav {
+    text-align: center;
+    margin-top: 12px;
+}
+
+#nav-links-background a:hover {
+    background-color: rgb(227, 248, 255);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.55);
+    border-color: rgb(84, 73, 146);
+    border-width: 2px;
+}   
+
+
+
+
+#chicken {
+	background-color: #C88648;
+}
+
+#beef {
+	background-color: #547C9B;
+}
+
+#sushi {
+	background-color: #8B827C;
+}
+
+
+
+/*new CSS*/
+.menu-titel {
+    background-color: grey;
+    padding: 3px 15px;
+    float: right;
+    text-align: end;
+}
+
+p.menu-description {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 35px 10px 10px 10px;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+/*
+.col {
+    margin: 30px 10px;
+}*/
+
+.boxcolor {
+    background-color:rgb(151, 193, 220);
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(236, 236, 236);
+}
+
+/* fuktioniert, aber braucht es nicht!!!
+.navbar {
+    float: clear;
+} */
+
+
+/* fuktioniert nicht!!!
+.collapse, .navbar-collapse, .navbar-nav {
+    float: right;
+} */
+
